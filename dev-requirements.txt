@@ -11,3 +11,5 @@ sphinx_gallery==0.10.1
 sphinx_rtd_theme==1.0.0
 tox==3.24.4
 pip>=19.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
